@@ -1,0 +1,5 @@
+/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/pioasm-install/pioasm/pioasm
+/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
