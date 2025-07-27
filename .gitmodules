@@ -1,0 +1,3 @@
+[submodule "aquarium-freertos/lib/coreHTTP"]
+	path = aquarium-freertos/lib/coreHTTP
+	url = https://github.com/FreeRTOS/coreHTTP.git

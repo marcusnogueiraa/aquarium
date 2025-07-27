@@ -1,5 +1,0 @@
-/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/_deps/picotool/picotool
-/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/_deps/picotool/picotoolTargets.cmake
-/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/_deps/picotool/picotoolTargets-release.cmake
-/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/_deps/picotool/picotoolConfig.cmake
-/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/_deps/picotool/picotoolConfigVersion.cmake

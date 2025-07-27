@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "ds18b20.h": "c"
+        "ds18b20.h": "c",
+        "temperature_control.h": "c"
     }
 }

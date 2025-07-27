@@ -1,6 +1,8 @@
 # Defina o executável
 add_executable(${PROJECT_NAME}
     main.c
+    temperature_control.c
+    water_level_control.c
     ../lib/dnsserver/dnsserver.c
     ../lib/dhcpserver/dhcpserver.c
     #temp_task.c
