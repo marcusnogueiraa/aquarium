@@ -11,12 +11,14 @@
 #include "pico/cyw43_arch.h"
 #include "http_client_util.h" 
 
+#include "lcd_display.h"
+
 #define HIGH_PRIORITY 3
 #define MEDIUM_PRIORITY 2
 #define LOW_PRIORITY 1
 
-#define WIFI_SSID "MOB-MARCUS"
-#define WIFI_PASSWORD "rafael2022"
+#define WIFI_SSID "SMARTUFC"
+#define WIFI_PASSWORD "#smart@1020"
 
 #define HOST "example.com"
 #define URL "/"
@@ -56,11 +58,17 @@ int main(void) {
         return 1;
     }
 
+    lcd_display_init();
+
     printf("Conectado ao Wi-Fi: %s\n", WIFI_SSID);
 
     xTaskCreate(level_sensor_task, "WaterControlTask", 2048, NULL, HIGH_PRIORITY, NULL);
     xTaskCreate(temperature_control_task, "TempControlTask", 2048, NULL, HIGH_PRIORITY, NULL);
-    xTaskCreate(http_task, "HTTP", 4096, NULL, MEDIUM_PRIORITY, NULL);
+    xTaskCreate(lcd_display_task, "LCD", 1024, NULL, 1, NULL);
+    //xTaskCreate(http_task, "HTTP", 4096, NULL, MEDIUM_PRIORITY, NULL);
+
+    char msg[33] = "Temperatura:\n26.5 C";
+    xQueueSend(DisplayQueue, &msg, 0);
 
     vTaskStartScheduler();
     return 0;

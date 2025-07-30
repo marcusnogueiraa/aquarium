@@ -3,9 +3,10 @@ add_executable(${PROJECT_NAME}
     main.c
     temperature_control.c
     water_level_control.c
+    http_client_util.c
+    lcd_display.c
     ../lib/dnsserver/dnsserver.c
     ../lib/dhcpserver/dhcpserver.c
-    http_client_util.c
     #temp_task.c
 )
 
@@ -22,6 +23,7 @@ target_link_libraries(${PROJECT_NAME}
     pico_lwip_mbedtls
     pico_lwip_http
     pico_mbedtls
+    hardware_i2c
 )
 
 # Define diretórios de inclusão

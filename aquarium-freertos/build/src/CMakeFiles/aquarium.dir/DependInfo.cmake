@@ -187,6 +187,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/marcus-leloq/pico-sdk/lib/mbedtls/include"
   "/home/marcus-leloq/pico-sdk/lib/mbedtls/library"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/include"
+  "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -430,6 +431,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
+  "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d"
@@ -482,6 +484,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c" "src/CMakeFiles/aquarium.dir/http_client_util.c.o" "gcc" "src/CMakeFiles/aquarium.dir/http_client_util.c.o.d"
+  "/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/lcd_display.c" "src/CMakeFiles/aquarium.dir/lcd_display.c.o" "gcc" "src/CMakeFiles/aquarium.dir/lcd_display.c.o.d"
   "/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/main.c" "src/CMakeFiles/aquarium.dir/main.c.o" "gcc" "src/CMakeFiles/aquarium.dir/main.c.o.d"
   "/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/temperature_control.c" "src/CMakeFiles/aquarium.dir/temperature_control.c.o" "gcc" "src/CMakeFiles/aquarium.dir/temperature_control.c.o.d"
   "/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/water_level_control.c" "src/CMakeFiles/aquarium.dir/water_level_control.c.o" "gcc" "src/CMakeFiles/aquarium.dir/water_level_control.c.o.d"

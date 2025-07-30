@@ -111,10 +111,38 @@ src/CMakeFiles/aquarium.dir/water_level_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/water_level_control.c.s"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/water_level_control.c -o CMakeFiles/aquarium.dir/water_level_control.c.s
 
+src/CMakeFiles/aquarium.dir/http_client_util.c.o: src/CMakeFiles/aquarium.dir/flags.make
+src/CMakeFiles/aquarium.dir/http_client_util.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c
+src/CMakeFiles/aquarium.dir/http_client_util.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/aquarium.dir/http_client_util.c.o"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/http_client_util.c.o -MF CMakeFiles/aquarium.dir/http_client_util.c.o.d -o CMakeFiles/aquarium.dir/http_client_util.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c
+
+src/CMakeFiles/aquarium.dir/http_client_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquarium.dir/http_client_util.c.i"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c > CMakeFiles/aquarium.dir/http_client_util.c.i
+
+src/CMakeFiles/aquarium.dir/http_client_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/http_client_util.c.s"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c -o CMakeFiles/aquarium.dir/http_client_util.c.s
+
+src/CMakeFiles/aquarium.dir/lcd_display.c.o: src/CMakeFiles/aquarium.dir/flags.make
+src/CMakeFiles/aquarium.dir/lcd_display.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/lcd_display.c
+src/CMakeFiles/aquarium.dir/lcd_display.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/aquarium.dir/lcd_display.c.o"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/lcd_display.c.o -MF CMakeFiles/aquarium.dir/lcd_display.c.o.d -o CMakeFiles/aquarium.dir/lcd_display.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/lcd_display.c
+
+src/CMakeFiles/aquarium.dir/lcd_display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquarium.dir/lcd_display.c.i"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/lcd_display.c > CMakeFiles/aquarium.dir/lcd_display.c.i
+
+src/CMakeFiles/aquarium.dir/lcd_display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/lcd_display.c.s"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/lcd_display.c -o CMakeFiles/aquarium.dir/lcd_display.c.s
+
 src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/lib/dnsserver/dnsserver.c
 src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o -MF CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o.d -o CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/lib/dnsserver/dnsserver.c
 
 src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.i: cmake_force
@@ -128,7 +156,7 @@ src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.s: cmake_force
 src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/lib/dhcpserver/dhcpserver.c
 src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o -MF CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o.d -o CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/lib/dhcpserver/dhcpserver.c
 
 src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.i: cmake_force
@@ -139,24 +167,10 @@ src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.s"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/lib/dhcpserver/dhcpserver.c -o CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.s
 
-src/CMakeFiles/aquarium.dir/http_client_util.c.o: src/CMakeFiles/aquarium.dir/flags.make
-src/CMakeFiles/aquarium.dir/http_client_util.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c
-src/CMakeFiles/aquarium.dir/http_client_util.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/aquarium.dir/http_client_util.c.o"
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/http_client_util.c.o -MF CMakeFiles/aquarium.dir/http_client_util.c.o.d -o CMakeFiles/aquarium.dir/http_client_util.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c
-
-src/CMakeFiles/aquarium.dir/http_client_util.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquarium.dir/http_client_util.c.i"
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c > CMakeFiles/aquarium.dir/http_client_util.c.i
-
-src/CMakeFiles/aquarium.dir/http_client_util.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/http_client_util.c.s"
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/http_client_util.c -o CMakeFiles/aquarium.dir/http_client_util.c.s
-
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -170,7 +184,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdli
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -184,7 +198,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_g
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -198,7 +212,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -212,7 +226,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_platf
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o: /home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -226,7 +240,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/hardware_claim
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -240,7 +254,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -254,7 +268,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -267,7 +281,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -281,7 +295,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -295,7 +309,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/sem.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -309,7 +323,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/lock
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -323,7 +337,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/mute
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -337,7 +351,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_sync/crit
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_time/time.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_time/time.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -351,7 +365,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -365,7 +379,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_time/time
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -379,7 +393,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -393,7 +407,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/date
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -407,7 +421,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/phea
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o: /home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.o -c /home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -421,7 +435,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/common/pico_util/queu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -435,7 +449,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_u
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -449,7 +463,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -463,7 +477,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_p
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -477,7 +491,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_v
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -491,7 +505,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_w
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -505,7 +519,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -519,7 +533,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootr
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -533,7 +547,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bootr
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -547,7 +561,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_b
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -561,7 +575,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_flash
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -574,7 +588,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_x
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -588,7 +602,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_d
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -602,7 +616,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runti
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -616,7 +630,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runti
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -630,7 +644,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runti
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -643,7 +657,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_runti
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -656,7 +670,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_bit_o
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -669,7 +683,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_divid
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -683,7 +697,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_doubl
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -697,7 +711,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_doubl
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -710,7 +724,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_doubl
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -723,7 +737,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_doubl
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -736,7 +750,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_int64
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -750,7 +764,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -764,7 +778,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -777,7 +791,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -791,7 +805,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_float
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -804,7 +818,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mallo
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -818,7 +832,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mem_o
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -832,7 +846,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_atomi
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -846,7 +860,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cxx_o
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -860,7 +874,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stand
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -873,7 +887,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_print
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -887,7 +901,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -901,7 +915,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_clib_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -915,7 +929,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -929,7 +943,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -943,7 +957,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -957,7 +971,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -971,7 +985,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdio
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -985,7 +999,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_uniqu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -999,7 +1013,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_f
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1013,7 +1027,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_x
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -1027,7 +1041,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -1041,7 +1055,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/portable/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1055,7 +1069,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/us
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1069,7 +1083,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/device/us
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1083,7 +1097,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/aud
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1097,7 +1111,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/cdc
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1111,7 +1125,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1125,7 +1139,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/dfu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1139,7 +1153,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/hid
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1153,7 +1167,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/mid
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1167,7 +1181,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/msc
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1181,7 +1195,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1195,7 +1209,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/net
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1209,7 +1223,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/usb
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1223,7 +1237,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/ven
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1237,7 +1251,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/class/vid
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1251,7 +1265,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/tusb.c.s:
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1265,7 +1279,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/tinyusb/src/common/tu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1279,7 +1293,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_fix/r
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -1293,7 +1307,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1307,7 +1321,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -1321,7 +1335,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -1335,7 +1349,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -1349,7 +1363,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -1363,7 +1377,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -1377,7 +1391,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -1391,7 +1405,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o: /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.o -c /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -1405,7 +1419,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPico
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1419,7 +1433,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_e
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1433,7 +1447,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_multi
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/port/FreeRTOS-Kernel/IdleMemory.c
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o -MF CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o.d -o CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/port/FreeRTOS-Kernel/IdleMemory.c
 
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.i: cmake_force
@@ -1447,7 +1461,7 @@ src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/IdleMemory.c.s: cmake_force
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o: /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/port/FreeRTOS-Kernel/cppMemory.cpp
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o -MF CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o.d -o CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.o -c /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/port/FreeRTOS-Kernel/cppMemory.cpp
 
 src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.i: cmake_force
@@ -1461,7 +1475,7 @@ src/CMakeFiles/aquarium.dir/__/port/FreeRTOS-Kernel/cppMemory.cpp.s: cmake_force
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
@@ -1475,7 +1489,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_lwip/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1489,7 +1503,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
@@ -1503,7 +1517,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_rand/
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1517,7 +1531,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/init.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1531,7 +1545,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/def.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1545,7 +1559,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/dns.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1559,7 +1573,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/inet_ch
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1573,7 +1587,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ip.c.s:
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1587,7 +1601,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/mem.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1601,7 +1615,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/memp.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1615,7 +1629,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/netif.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1629,7 +1643,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/pbuf.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1643,7 +1657,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/raw.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1657,7 +1671,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/stats.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1671,7 +1685,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/sys.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1685,7 +1699,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1699,7 +1713,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_a
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1713,7 +1727,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/altcp_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1727,7 +1741,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1741,7 +1755,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_in.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1755,7 +1769,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/tcp_out
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1769,7 +1783,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/timeout
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1783,7 +1797,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/udp.c.s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1797,7 +1811,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/au
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1811,7 +1825,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/dh
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1825,7 +1839,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/et
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1839,7 +1853,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ic
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1853,7 +1867,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ig
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1867,7 +1881,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1881,7 +1895,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1895,7 +1909,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1909,7 +1923,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv4/ac
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1923,7 +1937,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/dh
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1937,7 +1951,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/et
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1951,7 +1965,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ic
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1965,7 +1979,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/in
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1979,7 +1993,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1993,7 +2007,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -2007,7 +2021,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -2021,7 +2035,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/ml
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -2035,7 +2049,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/core/ipv6/nd
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -2049,7 +2063,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_lib.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -2063,7 +2077,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/api_msg.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -2077,7 +2091,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/err.c.s:
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -2091,7 +2105,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/if_api.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -2105,7 +2119,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netbuf.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -2119,7 +2133,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netdb.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -2133,7 +2147,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/netifapi
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -2147,7 +2161,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/sockets.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -2161,7 +2175,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/api/tcpip.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -2175,7 +2189,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ethern
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -2189,7 +2203,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridge
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -2203,7 +2217,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/bridge
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -2217,7 +2231,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/slipif
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -2231,7 +2245,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -2245,7 +2259,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -2259,7 +2273,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/lowpan
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -2273,7 +2287,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/zepif.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -2287,7 +2301,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/au
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -2301,7 +2315,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/cc
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -2315,7 +2329,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ch
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -2329,7 +2343,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ch
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -2343,7 +2357,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ch
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -2357,7 +2371,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/de
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -2371,7 +2385,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ea
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -2385,7 +2399,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ec
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2399,7 +2413,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/eu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2413,7 +2427,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/fs
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2427,7 +2441,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2441,7 +2455,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ip
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2455,7 +2469,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/lc
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2469,7 +2483,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ma
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2483,7 +2497,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2497,7 +2511,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/mu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2511,7 +2525,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2525,7 +2539,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2539,7 +2553,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2553,7 +2567,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2567,7 +2581,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2581,7 +2595,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/pp
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2595,7 +2609,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/up
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2609,7 +2623,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/ut
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2623,7 +2637,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/vj
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2637,7 +2651,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/po
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2651,7 +2665,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/po
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2665,7 +2679,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/po
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2679,7 +2693,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/po
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2693,7 +2707,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/netif/ppp/po
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -2707,7 +2721,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -2721,7 +2735,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2735,7 +2749,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -2749,7 +2763,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -2763,7 +2777,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -2777,7 +2791,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw4
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -2791,7 +2805,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw4
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -2805,7 +2819,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw4
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -2819,7 +2833,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/cyw43-driver/src/cyw4
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -2833,7 +2847,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -2847,7 +2861,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -2861,7 +2875,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_p
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -2875,7 +2889,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_d
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -2889,7 +2903,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_cyw43
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -2903,7 +2917,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_async
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i: cmake_force
@@ -2917,7 +2931,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i: cmake_force
@@ -2931,7 +2945,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/altcp_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.i: cmake_force
@@ -2945,7 +2959,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/snmp/sn
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i: cmake_force
@@ -2959,7 +2973,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/al
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs.c.i: cmake_force
@@ -2973,7 +2987,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/fs
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/http_client.c.i: cmake_force
@@ -2987,7 +3001,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/ht
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o: /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.o -c /home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/httpd.c.i: cmake_force
@@ -3001,7 +3015,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/lwip/src/apps/http/ht
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c.i: cmake_force
@@ -3015,7 +3029,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_mbedt
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c.i: cmake_force
@@ -3029,7 +3043,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aes.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni.c.i: cmake_force
@@ -3043,7 +3057,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aesni
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.c.i: cmake_force
@@ -3057,7 +3071,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/arc4.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.c.i: cmake_force
@@ -3071,7 +3085,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/aria.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1parse.c.i: cmake_force
@@ -3085,7 +3099,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1p
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1write.c.i: cmake_force
@@ -3099,7 +3113,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/asn1w
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base64.c.i: cmake_force
@@ -3113,7 +3127,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/base6
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignum.c.i: cmake_force
@@ -3127,7 +3141,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/bignu
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowfish.c.i: cmake_force
@@ -3141,7 +3155,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/blowf
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camellia.c.i: cmake_force
@@ -3155,7 +3169,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/camel
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c.i: cmake_force
@@ -3169,7 +3183,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ccm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chacha20.c.i: cmake_force
@@ -3183,7 +3197,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chach
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chachapoly.c.i: cmake_force
@@ -3197,7 +3211,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/chach
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher.c.i: cmake_force
@@ -3211,7 +3225,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ciphe
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i: cmake_force
@@ -3225,7 +3239,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ciphe
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/constant_time.c.i: cmake_force
@@ -3239,7 +3253,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/const
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.c.i: cmake_force
@@ -3253,7 +3267,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/cmac.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i: cmake_force
@@ -3267,7 +3281,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ctr_d
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c.i: cmake_force
@@ -3281,7 +3295,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/des.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c.i: cmake_force
@@ -3295,7 +3309,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/dhm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.c.i: cmake_force
@@ -3309,7 +3323,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdh.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa.c.i: cmake_force
@@ -3323,7 +3337,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecdsa
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpake.c.i: cmake_force
@@ -3337,7 +3351,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecjpa
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c.i: cmake_force
@@ -3351,7 +3365,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_curves.c.i: cmake_force
@@ -3365,7 +3379,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ecp_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy.c.i: cmake_force
@@ -3379,7 +3393,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entro
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entropy_poll.c.i: cmake_force
@@ -3393,7 +3407,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/entro
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error.c.i: cmake_force
@@ -3407,7 +3421,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/error
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c.i: cmake_force
@@ -3421,7 +3435,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/gcm.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/havege.c.i: cmake_force
@@ -3435,7 +3449,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/haveg
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.c.i: cmake_force
@@ -3449,7 +3463,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hkdf.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i: cmake_force
@@ -3463,7 +3477,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/hmac_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.i: cmake_force
@@ -3477,7 +3491,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c.i: cmake_force
@@ -3491,7 +3505,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md2.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c.i: cmake_force
@@ -3505,7 +3519,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md4.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c.i: cmake_force
@@ -3519,7 +3533,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/md5.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i: cmake_force
@@ -3533,7 +3547,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/memor
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_reader.c.i: cmake_force
@@ -3547,7 +3561,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_r
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_trace.c.i: cmake_force
@@ -3561,7 +3575,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/mps_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_kw.c.i: cmake_force
@@ -3575,7 +3589,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/nist_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c.i: cmake_force
@@ -3589,7 +3603,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/oid.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlock.c.i: cmake_force
@@ -3603,7 +3617,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/padlo
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c.i: cmake_force
@@ -3617,7 +3631,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pem.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.i: cmake_force
@@ -3631,7 +3645,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk.c.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wrap.c.i: cmake_force
@@ -3645,7 +3659,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pk_wr
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs12.c.i: cmake_force
@@ -3659,7 +3673,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs1
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5.c.i: cmake_force
@@ -3673,7 +3687,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs5
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkparse.c.i: cmake_force
@@ -3687,7 +3701,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkpar
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwrite.c.i: cmake_force
@@ -3701,7 +3715,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkwri
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform.c.i: cmake_force
@@ -3715,7 +3729,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platf
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platform_util.c.i: cmake_force
@@ -3729,7 +3743,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/platf
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1305.c.i: cmake_force
@@ -3743,7 +3757,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/poly1
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto.c.i: cmake_force
@@ -3757,7 +3771,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i: cmake_force
@@ -3771,7 +3785,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i: cmake_force
@@ -3785,7 +3799,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i: cmake_force
@@ -3799,7 +3813,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i: cmake_force
@@ -3813,7 +3827,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i: cmake_force
@@ -3827,7 +3841,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i: cmake_force
@@ -3841,7 +3855,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i: cmake_force
@@ -3855,7 +3869,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i: cmake_force
@@ -3869,7 +3883,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i: cmake_force
@@ -3883,7 +3897,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i: cmake_force
@@ -3897,7 +3911,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i: cmake_force
@@ -3911,7 +3925,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_its_file.c.i: cmake_force
@@ -3925,7 +3939,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/psa_i
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripemd160.c.i: cmake_force
@@ -3939,7 +3953,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ripem
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c.i: cmake_force
@@ -3953,7 +3967,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_internal.c.i: cmake_force
@@ -3967,7 +3981,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/rsa_i
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.c.i: cmake_force
@@ -3981,7 +3995,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha1.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha256.c.i: cmake_force
@@ -3995,7 +4009,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha25
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha512.c.i: cmake_force
@@ -4009,7 +4023,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/sha51
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threading.c.i: cmake_force
@@ -4023,7 +4037,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/threa
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timing.c.i: cmake_force
@@ -4037,7 +4051,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/timin
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version.c.i: cmake_force
@@ -4051,7 +4065,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/versi
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/version_features.c.i: cmake_force
@@ -4065,7 +4079,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/versi
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.c.i: cmake_force
@@ -4079,7 +4093,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/xtea.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs.c.i: cmake_force
@@ -4093,7 +4107,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/certs
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs11.c.i: cmake_force
@@ -4107,7 +4121,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/pkcs1
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.c.i: cmake_force
@@ -4121,7 +4135,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509.
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_create.c.i: cmake_force
@@ -4135,7 +4149,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crl.c.i: cmake_force
@@ -4149,7 +4163,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_crt.c.i: cmake_force
@@ -4163,7 +4177,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_csr.c.i: cmake_force
@@ -4177,7 +4191,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509_
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_crt.c.i: cmake_force
@@ -4191,7 +4205,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509w
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509write_csr.c.i: cmake_force
@@ -4205,7 +4219,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/x509w
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug.c.i: cmake_force
@@ -4219,7 +4233,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/debug
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_sockets.c.i: cmake_force
@@ -4233,7 +4247,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/net_s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cache.c.i: cmake_force
@@ -4247,7 +4261,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c.i: cmake_force
@@ -4261,7 +4275,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cli.c.i: cmake_force
@@ -4275,7 +4289,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_cookie.c.i: cmake_force
@@ -4289,7 +4303,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_msg.c.i: cmake_force
@@ -4303,7 +4317,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_m
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.i: cmake_force
@@ -4317,7 +4331,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_s
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.i: cmake_force
@@ -4331,7 +4345,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.i: cmake_force
@@ -4345,7 +4359,7 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_t
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o: src/CMakeFiles/aquarium.dir/flags.make
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o: /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o -c /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c
 
 src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.i: cmake_force
@@ -4356,14 +4370,29 @@ src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_t
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.s"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.s
 
+src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: src/CMakeFiles/aquarium.dir/flags.make
+src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: src/CMakeFiles/aquarium.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 # Object files for target aquarium
 aquarium_OBJECTS = \
 "CMakeFiles/aquarium.dir/main.c.o" \
 "CMakeFiles/aquarium.dir/temperature_control.c.o" \
 "CMakeFiles/aquarium.dir/water_level_control.c.o" \
+"CMakeFiles/aquarium.dir/http_client_util.c.o" \
+"CMakeFiles/aquarium.dir/lcd_display.c.o" \
 "CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o" \
 "CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o" \
-"CMakeFiles/aquarium.dir/http_client_util.c.o" \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -4664,7 +4693,8 @@ aquarium_OBJECTS = \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_srv.c.o" \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o" \
 "CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o" \
-"CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o"
+"CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o" \
+"CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 
 # External object files for target aquarium
 aquarium_EXTERNAL_OBJECTS =
@@ -4672,9 +4702,10 @@ aquarium_EXTERNAL_OBJECTS =
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/main.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/temperature_control.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/water_level_control.c.o
+src/aquarium.elf: src/CMakeFiles/aquarium.dir/http_client_util.c.o
+src/aquarium.elf: src/CMakeFiles/aquarium.dir/lcd_display.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/__/lib/dnsserver/dnsserver.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/__/lib/dhcpserver/dhcpserver.c.o
-src/aquarium.elf: src/CMakeFiles/aquarium.dir/http_client_util.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -4976,13 +5007,14 @@ src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbe
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_ticket.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c.o
+src/aquarium.elf: src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/build.make
 src/aquarium.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 src/aquarium.elf: libfreertos_config.a
 src/aquarium.elf: onewire_library/libonewire_library.a
 src/aquarium.elf: /home/marcus-leloq/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 src/aquarium.elf: src/CMakeFiles/aquarium.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Linking CXX executable aquarium.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Linking CXX executable aquarium.elf"
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aquarium.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-objdump -h /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src/aquarium.elf > aquarium.dis
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src && /usr/bin/arm-none-eabi-objdump -d /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/src/aquarium.elf >> aquarium.dis

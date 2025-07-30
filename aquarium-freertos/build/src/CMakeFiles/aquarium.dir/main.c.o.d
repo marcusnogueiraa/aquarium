@@ -143,4 +143,7 @@ src/CMakeFiles/aquarium.dir/main.c.o: \
  /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/apps/http_client.h \
  /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/altcp.h \
  /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
- /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h
+ /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/lcd_display.h \
+ /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/queue.h \
+ /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/task.h

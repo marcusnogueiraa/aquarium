@@ -5963,6 +5963,30 @@ home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+
+# target to build an object file
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
@@ -7315,6 +7339,30 @@ http_client_util.c.s:
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/http_client_util.c.s
 .PHONY : http_client_util.c.s
 
+lcd_display.o: lcd_display.c.o
+.PHONY : lcd_display.o
+
+# target to build an object file
+lcd_display.c.o:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/lcd_display.c.o
+.PHONY : lcd_display.c.o
+
+lcd_display.i: lcd_display.c.i
+.PHONY : lcd_display.i
+
+# target to preprocess a source file
+lcd_display.c.i:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/lcd_display.c.i
+.PHONY : lcd_display.c.i
+
+lcd_display.s: lcd_display.c.s
+.PHONY : lcd_display.s
+
+# target to generate assembly for a file
+lcd_display.c.s:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/lcd_display.c.s
+.PHONY : lcd_display.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -8123,6 +8171,9 @@ help:
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/marcus-leloq/pico-sdk/src/rp2_common/hardware_irq/irq.s"
@@ -8292,6 +8343,9 @@ help:
 	@echo "... http_client_util.o"
 	@echo "... http_client_util.i"
 	@echo "... http_client_util.s"
+	@echo "... lcd_display.o"
+	@echo "... lcd_display.i"
+	@echo "... lcd_display.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
