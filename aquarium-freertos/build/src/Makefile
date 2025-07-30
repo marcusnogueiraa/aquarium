@@ -195,34 +195,6 @@ aquarium/fast:
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/build
 .PHONY : aquarium/fast
 
-# Convenience name for target.
-src/CMakeFiles/picotoolForceReconfigure.dir/rule:
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/picotoolForceReconfigure.dir/rule
-.PHONY : src/CMakeFiles/picotoolForceReconfigure.dir/rule
-
-# Convenience name for target.
-picotoolForceReconfigure: src/CMakeFiles/picotoolForceReconfigure.dir/rule
-.PHONY : picotoolForceReconfigure
-
-# fast build rule for target.
-picotoolForceReconfigure/fast:
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picotoolForceReconfigure.dir/build.make src/CMakeFiles/picotoolForceReconfigure.dir/build
-.PHONY : picotoolForceReconfigure/fast
-
-# Convenience name for target.
-src/CMakeFiles/picotoolBuild.dir/rule:
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/picotoolBuild.dir/rule
-.PHONY : src/CMakeFiles/picotoolBuild.dir/rule
-
-# Convenience name for target.
-picotoolBuild: src/CMakeFiles/picotoolBuild.dir/rule
-.PHONY : picotoolBuild
-
-# fast build rule for target.
-picotoolBuild/fast:
-	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picotoolBuild.dir/build.make src/CMakeFiles/picotoolBuild.dir/build
-.PHONY : picotoolBuild/fast
-
 __/lib/dhcpserver/dhcpserver.o: __/lib/dhcpserver/dhcpserver.c.o
 .PHONY : __/lib/dhcpserver/dhcpserver.o
 
@@ -7429,8 +7401,6 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... picotoolBuild"
-	@echo "... picotoolForceReconfigure"
 	@echo "... aquarium"
 	@echo "... __/lib/dhcpserver/dhcpserver.o"
 	@echo "... __/lib/dhcpserver/dhcpserver.i"

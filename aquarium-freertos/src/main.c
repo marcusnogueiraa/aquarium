@@ -9,7 +9,7 @@
 #include "water_level_control.h"
 
 #include "pico/cyw43_arch.h"
-#include "http_client_util.h"  // nome correto da util
+#include "http_client_util.h" 
 
 #define HIGH_PRIORITY 3
 #define MEDIUM_PRIORITY 2

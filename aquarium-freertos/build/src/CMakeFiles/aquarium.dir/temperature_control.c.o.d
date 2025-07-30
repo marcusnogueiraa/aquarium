@@ -85,4 +85,5 @@ src/CMakeFiles/aquarium.dir/temperature_control.c.o: \
  /usr/include/newlib/stdio.h /usr/include/newlib/sys/reent.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
  /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
- /usr/include/newlib/sys/stdio.h
+ /usr/include/newlib/sys/stdio.h \
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/pin_map.h
