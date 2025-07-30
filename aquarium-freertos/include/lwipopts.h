@@ -89,4 +89,9 @@
 #define SLIP_DEBUG                  LWIP_DBG_OFF
 #define DHCP_DEBUG                  LWIP_DBG_OFF
 
+#define LWIP_ALTCP 1
+#define LWIP_ALTCP_TLS 1
+#define LWIP_ALTCP_TLS_MBEDTLS 1
+#define TCP_WND 16384
+
 #endif 

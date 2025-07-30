@@ -5,6 +5,7 @@ add_executable(${PROJECT_NAME}
     water_level_control.c
     ../lib/dnsserver/dnsserver.c
     ../lib/dhcpserver/dhcpserver.c
+    http_client_util.c
     #temp_task.c
 )
 
@@ -18,6 +19,9 @@ target_link_libraries(${PROJECT_NAME}
     freertos_config
     pico_cyw43_arch_lwip_threadsafe_background
     onewire_library
+    pico_lwip_mbedtls
+    pico_lwip_http
+    pico_mbedtls
 )
 
 # Define diretórios de inclusão
