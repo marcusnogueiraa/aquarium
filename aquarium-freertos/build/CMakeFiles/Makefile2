@@ -1838,7 +1838,7 @@ CMakeFiles/freertos_config.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/b
 
 # Build rule for subdir invocation for target.
 CMakeFiles/freertos_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/freertos_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
 .PHONY : CMakeFiles/freertos_config.dir/rule
@@ -1859,12 +1859,12 @@ CMakeFiles/freertos_config.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num= "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=70 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
@@ -1885,7 +1885,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num=70 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1916,7 +1916,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all: pico-sdk
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
@@ -1971,7 +1971,7 @@ src/CMakeFiles/aquarium.dir/all: onewire_library/CMakeFiles/onewire_library.dir/
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/aquarium.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 99
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/aquarium.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/aquarium.dir/rule
@@ -1998,7 +1998,7 @@ onewire_library/CMakeFiles/onewire_library.dir/all: onewire_library/CMakeFiles/o
 
 # Build rule for subdir invocation for target.
 onewire_library/CMakeFiles/onewire_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 onewire_library/CMakeFiles/onewire_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build/CMakeFiles 0
 .PHONY : onewire_library/CMakeFiles/onewire_library.dir/rule

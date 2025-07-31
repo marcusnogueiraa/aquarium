@@ -86,4 +86,7 @@ src/CMakeFiles/aquarium.dir/temperature_control.c.o: \
  /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
  /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
  /usr/include/newlib/sys/stdio.h \
- /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/pin_map.h
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/pin_map.h \
+ /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/queue.h \
+ /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/task.h \
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/lcd_display.h

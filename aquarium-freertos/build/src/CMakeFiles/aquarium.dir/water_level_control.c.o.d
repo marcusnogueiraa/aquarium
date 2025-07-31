@@ -1,5 +1,6 @@
 src/CMakeFiles/aquarium.dir/water_level_control.c.o: \
  /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/water_level_control.c \
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/pin_map.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \

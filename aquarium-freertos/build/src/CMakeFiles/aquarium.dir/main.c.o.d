@@ -146,4 +146,5 @@ src/CMakeFiles/aquarium.dir/main.c.o: \
  /home/marcus-leloq/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/lcd_display.h \
  /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/queue.h \
- /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/task.h
+ /home/marcus-leloq/Documentos/ufc/7-term/rtos/RPIPicoFreeRTOSCourse/lib/FreeRTOS-Kernel/include/task.h \
+ /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/src/../include/temperature_http_sender.h

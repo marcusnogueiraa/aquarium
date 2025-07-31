@@ -604,6 +604,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/aquarium.dir/main.c.o.d"
   "CMakeFiles/aquarium.dir/temperature_control.c.o"
   "CMakeFiles/aquarium.dir/temperature_control.c.o.d"
+  "CMakeFiles/aquarium.dir/temperature_http_sender.c.o"
+  "CMakeFiles/aquarium.dir/temperature_http_sender.c.o.d"
   "CMakeFiles/aquarium.dir/water_level_control.c.o"
   "CMakeFiles/aquarium.dir/water_level_control.c.o.d"
   "aquarium.elf"

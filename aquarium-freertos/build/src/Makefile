@@ -7411,6 +7411,30 @@ temperature_control.c.s:
 	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/temperature_control.c.s
 .PHONY : temperature_control.c.s
 
+temperature_http_sender.o: temperature_http_sender.c.o
+.PHONY : temperature_http_sender.o
+
+# target to build an object file
+temperature_http_sender.c.o:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/temperature_http_sender.c.o
+.PHONY : temperature_http_sender.c.o
+
+temperature_http_sender.i: temperature_http_sender.c.i
+.PHONY : temperature_http_sender.i
+
+# target to preprocess a source file
+temperature_http_sender.c.i:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/temperature_http_sender.c.i
+.PHONY : temperature_http_sender.c.i
+
+temperature_http_sender.s: temperature_http_sender.c.s
+.PHONY : temperature_http_sender.s
+
+# target to generate assembly for a file
+temperature_http_sender.c.s:
+	cd /home/marcus-leloq/Documentos/aquarium/aquarium-freertos/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/aquarium.dir/build.make src/CMakeFiles/aquarium.dir/temperature_http_sender.c.s
+.PHONY : temperature_http_sender.c.s
+
 water_level_control.o: water_level_control.c.o
 .PHONY : water_level_control.o
 
@@ -8352,6 +8376,9 @@ help:
 	@echo "... temperature_control.o"
 	@echo "... temperature_control.i"
 	@echo "... temperature_control.s"
+	@echo "... temperature_http_sender.o"
+	@echo "... temperature_http_sender.i"
+	@echo "... temperature_http_sender.s"
 	@echo "... water_level_control.o"
 	@echo "... water_level_control.i"
 	@echo "... water_level_control.s"
